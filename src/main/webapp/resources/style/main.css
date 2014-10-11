@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    color: #4083d0;
+
+} 
+@font-face {
+	font-family: 'fontawesome';
+	src:url('fonts/fontawesome.eot');
+	src:url('fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('fonts/fontawesome.woff') format('woff'),
+		url('fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+#main
+{
+min-width: 1200px; 
+width : 100%; 
+  
+min-height: 600px; }
+#header 
+{ 
+width: 100%; 
+min-height:10%;
+height: 80px; 
+display: block; 
+margin:0px; 
+background-color : white; 
+padding-top : 20px;  
+}
+#header header span {
+	display: block;
+	width : 100%;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em; 
+}
+#header header h1 {
+	width : 100%; 
+	font-size: 2.125em;  
+	float: left;
+	font-weight: 400;
+	margin:0;
+	text-align: center;
+}
+#location
+{
+float: right;
+padding-right : 10px; 
+color:#000;
+font-size : 12px;  
+}
+#container 
+{
+width:100%;
+min-width:1200px; 
+height:90%;
+min-height: 500px;
+margin:0px;   
+background-color:#47a3da; 
+}
+
+#trending-now
+{
+padding: 0px; 
+float: left;  	
+display:block;
+min-width:350px; 
+width: 15%;
+min-height:400px; 
+height:100%;
+background-color: #ccc;
+
+}
+
+#trending-now h3
+{	color: #fff;
+	font-size: 1.9em;
+	padding: 20px;
+	margin: 0;
+	text-align:right;
+	font-weight: 300;
+	background: #003366;
+	}
+	.trend-links
+	{
+	display: block;
+	width:320px; 
+height: 80px; 
+background-color:white;
+border-top: 1px solid #0d77b6;  
+	
+	}
+	.trend-menu{
+    padding: 0;
+    margin: 10px auto;
+    width: 330px;
+}
+.trend-menu li{ 
+	height : 120px; 
+    overflow: hidden;
+    display: block;
+    background: #fff;
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 4px;
+    border-left: 8px solid #87CEFA;
+    -webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+ margin-top: 10px;
+	
+} 
+.trend-icon
+{
+display: inline-block; 
+width : 100px; 
+height : 100px;   
+float: left; 
+margin-top:10px;
+margin-left: 10px; 
+margin-right: 10px; 
+}
+ 
+
+.trend-menu li:hover{
+    border-color: #708090;
+    background: #f3f3f3;
+} 
+.trend-menu li:hover  a {
+
+color:black;}
+.trend-menu li:hover  .trend-icon
+{
+display: inline-block; 
+width : 110px; 
+height : 110px;   
+background-size: 100%;
+float: left;  
+
+margin-top:5px;
+margin-left: 5px; 
+margin-right: 5px; 
+}
+
+ 
+ a.trend-name
+ {
+ display:block; 
+ color: #111;
+text-decoration:none;
+font-size: 16px; 
+ height: 20px;
+font-weight:700; 
+margin-top: 10px;
+text-shadow: 1px 1px #eeeeee;}
+ 
+.trend-text
+{ 
+margin-top:5px;
+display:block;
+font-size : 14px;
+color: black;
+} 
+.trend-count
+{
+margin-top: 5px;
+display:block;
+font-size: 12px;
+color: #777;
+}
+
+#product-lists 
+{ 
+min-width:840px;
+ float:left;
+ width: 60%;
+min-height:400px; 
+height:80%;
+display: block;  
+padding: 30px;  
+overflow:hidden;
+}
+#text-content
+{
+display: block;
+width : 98%;
+height: 100px; 
+background-color:white;
+ margin: 2%;
+}
+#product-lists  li
+{
+width: 350px; 
+height: 120px; 
+display: inline-block; 
+background-color: white; 
+ float:left;
+   color: rgba(51,51,51,1);
+   margin : 10px; 
+   
+    -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 4px; 
+    -webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+#product-lists  li:hover{
+    border-color: #708090;
+    background: #eeeefe;
+} 
+.offer-title
+{
+display: inline-block; 
+ 
+ 
+
+padding : 10px 10px 5px 10px;
+border-bottom: 1px solid #eee;
+font-weight: 700;
+
+
+}
